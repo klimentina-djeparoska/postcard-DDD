@@ -1,2 +1,2 @@
 # postcard-DDD
-Domain driven development approach for the postcard project
+Domain driven design approach for the postcard project
