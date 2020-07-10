@@ -1,7 +1,7 @@
 package postcardddd.orderpostcard.service.impl;
 
 import org.springframework.stereotype.Service;
-import postcardddd.orderpostcard.model.PostcardType;
+import postcardddd.orderpostcard.domain.model.PostcardType;
 import postcardddd.orderpostcard.repository.PostcardTypeRepository;
 import postcardddd.orderpostcard.service.PostcardTypeService;
 

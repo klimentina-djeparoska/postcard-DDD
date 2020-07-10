@@ -1,7 +1,7 @@
 package postcardddd.orderpostcard.service;
 
 
-import postcardddd.orderpostcard.model.Address;
+import postcardddd.orderpostcard.domain.model.Address;
 import java.util.List;
 
 public interface AddressService {

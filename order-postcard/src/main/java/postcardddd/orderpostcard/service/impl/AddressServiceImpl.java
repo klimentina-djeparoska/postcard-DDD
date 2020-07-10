@@ -2,8 +2,8 @@ package postcardddd.orderpostcard.service.impl;
 
 
 import org.springframework.stereotype.Service;
-import postcardddd.orderpostcard.model.Address;
-import postcardddd.orderpostcard.model.exceptions.InvalidAddressNotFoundException;
+import postcardddd.orderpostcard.domain.model.Address;
+import postcardddd.orderpostcard.domain.model.exceptions.InvalidAddressNotFoundException;
 import postcardddd.orderpostcard.repository.AddressRepository;
 import postcardddd.orderpostcard.service.AddressService;
 

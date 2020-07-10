@@ -11,6 +11,7 @@
         <module>order-postcard</module>
         <module>user-notifications</module>
         <module>postcard-payment</module>
+        <module>shared-kernel</module>
     </modules>
 
 

@@ -1,7 +1,7 @@
 package postcardddd.orderpostcard.service;
 
-import postcardddd.orderpostcard.model.Address;
-import postcardddd.orderpostcard.model.OrderPostcard;
+import postcardddd.orderpostcard.domain.model.Address;
+import postcardddd.orderpostcard.domain.model.OrderPostcard;
 
 import java.sql.Timestamp;
 import java.util.List;

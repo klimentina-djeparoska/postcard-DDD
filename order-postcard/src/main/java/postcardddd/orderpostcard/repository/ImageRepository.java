@@ -1,6 +1,6 @@
 package postcardddd.orderpostcard.repository;
 
-import postcardddd.orderpostcard.model.Image;
+import postcardddd.orderpostcard.domain.model.Image;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

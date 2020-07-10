@@ -1,8 +1,8 @@
-package postcardddd.orderpostcard.model.exceptions;
+package postcardddd.orderpostcard.domain.model.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(HttpStatus.NOT_FOUND)
-public class InvalidPostcardStoreNotFoundException extends RuntimeException {
+public class InvalidPostcardNotFoundException extends RuntimeException {
 }

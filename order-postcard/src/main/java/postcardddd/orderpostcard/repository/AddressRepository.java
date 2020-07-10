@@ -1,7 +1,7 @@
 package postcardddd.orderpostcard.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import postcardddd.orderpostcard.model.Address;
+import postcardddd.orderpostcard.domain.model.Address;
 
 import java.util.List;
 

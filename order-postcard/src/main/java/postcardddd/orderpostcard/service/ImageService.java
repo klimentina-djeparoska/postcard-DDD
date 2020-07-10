@@ -1,6 +1,6 @@
 package postcardddd.orderpostcard.service;
 
-import postcardddd.orderpostcard.model.Image;
+import postcardddd.orderpostcard.domain.model.Image;
 
 import java.util.List;
 

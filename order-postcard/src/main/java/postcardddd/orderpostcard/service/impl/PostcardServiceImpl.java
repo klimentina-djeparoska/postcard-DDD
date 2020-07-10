@@ -1,16 +1,15 @@
 package postcardddd.orderpostcard.service.impl;
 
 import org.springframework.stereotype.Service;
-import postcardddd.orderpostcard.model.Postcard;
-import postcardddd.orderpostcard.model.PostcardType;
-import postcardddd.orderpostcard.model.exceptions.InvalidPostcardNotFoundException;
-import postcardddd.orderpostcard.model.exceptions.InvalidPostcardTypeNotFoundException;
+import postcardddd.orderpostcard.domain.model.Postcard;
+import postcardddd.orderpostcard.domain.model.PostcardType;
+import postcardddd.orderpostcard.domain.model.exceptions.InvalidPostcardNotFoundException;
+import postcardddd.orderpostcard.domain.model.exceptions.InvalidPostcardTypeNotFoundException;
 import postcardddd.orderpostcard.repository.PostcardRepository;
 import postcardddd.orderpostcard.repository.PostcardTypeRepository;
 import postcardddd.orderpostcard.service.PostcardService;
 
 import java.util.List;
-import java.util.UUID;
 
 @Service
 public class PostcardServiceImpl implements PostcardService {

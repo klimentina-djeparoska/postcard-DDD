@@ -1,4 +1,4 @@
-package postcardddd.orderpostcard.model;
+package postcardddd.orderpostcard.domain.model;
 import lombok.*;
 
 import javax.persistence.Entity;

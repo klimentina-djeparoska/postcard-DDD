@@ -1,8 +1,8 @@
 package postcardddd.orderpostcard.service.impl;
 
 import org.springframework.stereotype.Service;
-import postcardddd.orderpostcard.model.Image;
-import postcardddd.orderpostcard.model.exceptions.InvalidImageNotFoundException;
+import postcardddd.orderpostcard.domain.model.Image;
+import postcardddd.orderpostcard.domain.model.exceptions.InvalidImageNotFoundException;
 import postcardddd.orderpostcard.repository.ImageRepository;
 import postcardddd.orderpostcard.service.ImageService;
 

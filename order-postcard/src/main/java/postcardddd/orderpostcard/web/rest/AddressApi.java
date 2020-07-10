@@ -1,7 +1,7 @@
 package postcardddd.orderpostcard.web.rest;
 
 import org.springframework.web.bind.annotation.*;
-import postcardddd.orderpostcard.model.Address;
+import postcardddd.orderpostcard.domain.model.Address;
 import postcardddd.orderpostcard.service.AddressService;
 
 import javax.servlet.http.HttpServletResponse;
