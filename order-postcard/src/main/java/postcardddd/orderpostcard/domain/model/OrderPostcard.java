@@ -22,13 +22,13 @@ public class OrderPostcard  extends AbstractEntity<OrderPostcardId>{
     @OneToMany
     private DestinationAddress address;
     private double price;
-    private String status; // order received, made, send, delivered
+    private OrderStatus status;
     private PostcardStore store;
     private Timestamp date;
 
     public OrderPostcard() {}
 
-    public OrderPostcard(@NonNull String userId, String postcardId, DestinationAddress address, double price, String status, PostcardStore store, Timestamp date) {
+    public OrderPostcard(@NonNull String userId, String postcardId, DestinationAddress address, double price, OrderStatus status, PostcardStore store, Timestamp date) {
         super(DomainObjectId.randomId(OrderPostcardId.class));
     }
 }

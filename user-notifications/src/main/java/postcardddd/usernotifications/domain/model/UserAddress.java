@@ -1,4 +1,4 @@
-package postcardddd.usernotifications.domain;
+package postcardddd.usernotifications.domain.model;
 
 import org.springframework.lang.NonNull;
 import postcardddd.sharedkernel.domain.location.Address;

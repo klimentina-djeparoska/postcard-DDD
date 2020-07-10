@@ -1,4 +1,4 @@
-package postcardddd.usernotifications.domain;
+package postcardddd.usernotifications.domain.model;
 
 import lombok.Getter;
 import postcardddd.sharedkernel.domain.base.AbstractEntity;
