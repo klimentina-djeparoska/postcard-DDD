@@ -13,4 +13,12 @@ public class PostcardStore {
     String name;
     @OneToOne
     PhysicalAddress address;
+
+    public PostcardStore() {}
+
+    public PostcardStore(@NonNull String id, String name, PhysicalAddress address) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+    }
 }

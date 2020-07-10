@@ -9,12 +9,12 @@ import java.sql.Timestamp;
 public class PostcardPayment extends AbstractEntity<PostcardPaymentId>{
 
     private double price;
-    private String paymentMethod;
+    private PaymentMethod paymentMethod;
     private Timestamp timestamp;
 
     public PostcardPayment () {}
 
-    public PostcardPayment(double price, String paymentMethod, Timestamp timestamp) {
+    public PostcardPayment(double price, PaymentMethod paymentMethod, Timestamp timestamp) {
         this.price = price;
         this.paymentMethod = paymentMethod;
         this.timestamp = timestamp;

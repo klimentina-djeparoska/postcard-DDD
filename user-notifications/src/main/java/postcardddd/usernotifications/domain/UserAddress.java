@@ -1,12 +1,13 @@
 package postcardddd.usernotifications.domain;
 
+import org.springframework.lang.NonNull;
 import postcardddd.sharedkernel.domain.location.Address;
 
 public class UserAddress extends Address {
 
     public UserAddress() {super("", "", "", "", 0);}
 
-    public UserAddress(String id, String street, String city, String country, Integer postalCode) {
+    public UserAddress(@NonNull String id, String street, String city, String country, Integer postalCode) {
         super(id, street, city, country, postalCode);
     }
 }

@@ -16,5 +16,12 @@ public class Image {
     String postcardId;
     String image;
 
+    public Image() {}
+
+    public Image(@NonNull String id, String postcardId, String image) {
+        this.id = id;
+        this.postcardId = postcardId;
+        this.image = image;
+    }
 
 }

@@ -1,10 +1,11 @@
 package postcardddd.usernotifications.domain;
 
+import org.springframework.lang.NonNull;
 import postcardddd.sharedkernel.domain.base.DomainObjectId;
 
 public class UserId extends DomainObjectId {
 
     public UserId() {super("");}
 
-    public UserId(String id) {super(id);}
+    public UserId(@NonNull String id) {super(id);}
 }

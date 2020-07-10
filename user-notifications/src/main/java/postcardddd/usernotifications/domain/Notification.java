@@ -10,13 +10,15 @@ import java.sql.Timestamp;
 @Getter
 public class Notification extends AbstractEntity<NotificationId> {
 
+    private UserId id;
     private String message;
     private String status;
     private Timestamp timestamp;
 
     public Notification() {}
 
-    public Notification(String message, String status, Timestamp timestamp) {
+    public Notification(UserId id, String message, String status, Timestamp timestamp) {
+        this.id = id;
         this.message = message;
         this.status = status;
         this.timestamp = timestamp;

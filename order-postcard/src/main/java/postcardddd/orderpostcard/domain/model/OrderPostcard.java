@@ -1,5 +1,6 @@
 package postcardddd.orderpostcard.domain.model;
 
+import lombok.NonNull;
 import postcardddd.sharedkernel.domain.base.AbstractEntity;
 
 import lombok.Getter;
@@ -22,11 +23,12 @@ public class OrderPostcard  extends AbstractEntity<OrderPostcardId>{
     private DestinationAddress address;
     private double price;
     private String status; // order received, made, send, delivered
+    private PostcardStore store;
     private Timestamp date;
 
     public OrderPostcard() {}
 
-    public OrderPostcard(String userId, String postcardId, DestinationAddress address, double price, String status, Timestamp date) {
+    public OrderPostcard(@NonNull String userId, String postcardId, DestinationAddress address, double price, String status, PostcardStore store, Timestamp date) {
         super(DomainObjectId.randomId(OrderPostcardId.class));
     }
 }

@@ -17,4 +17,14 @@ public class Postcard {
     private String message;
     private String font;
 
+    public Postcard() {};
+
+    public Postcard(@NonNull String id, String userId, String type, String message, String font) {
+        this.id = id;
+        this.userId = userId;
+        this.type = type;
+        this.message = message;
+        this.font = font;
+    }
+
 }
