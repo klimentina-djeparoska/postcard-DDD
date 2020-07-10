@@ -1,4 +1,4 @@
-package postcardddd.orderpostcard.repository;
+package postcardddd.orderpostcard.domain.repository;
 
 import postcardddd.orderpostcard.domain.model.Image;
 import org.springframework.data.jpa.repository.JpaRepository;

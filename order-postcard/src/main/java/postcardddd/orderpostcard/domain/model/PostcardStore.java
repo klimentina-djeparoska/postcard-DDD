@@ -1,6 +1,7 @@
 package postcardddd.orderpostcard.domain.model;
 
 import lombok.*;
+import postcardddd.sharedkernel.domain.location.Address;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

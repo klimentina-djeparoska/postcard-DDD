@@ -3,8 +3,8 @@ package postcardddd.orderpostcard.domain.model;
 import postcardddd.sharedkernel.domain.base.AbstractEntity;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import postcardddd.sharedkernel.domain.base.DomainObjectId;
+import postcardddd.sharedkernel.domain.location.Address;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
