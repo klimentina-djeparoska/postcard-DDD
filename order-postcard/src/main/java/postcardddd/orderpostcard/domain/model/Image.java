@@ -5,10 +5,6 @@ import lombok.*;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name = "image")
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
 @Data

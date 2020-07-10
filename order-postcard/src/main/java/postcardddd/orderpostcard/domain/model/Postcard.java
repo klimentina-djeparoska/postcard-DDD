@@ -4,10 +4,6 @@ import lombok.*;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name="postcard")
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
 @Data

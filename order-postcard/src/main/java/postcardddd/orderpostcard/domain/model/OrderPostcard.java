@@ -4,7 +4,6 @@ import postcardddd.sharedkernel.domain.base.AbstractEntity;
 
 import lombok.Getter;
 import postcardddd.sharedkernel.domain.base.DomainObjectId;
-import postcardddd.sharedkernel.domain.location.Address;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
@@ -20,14 +19,14 @@ public class OrderPostcard  extends AbstractEntity<OrderPostcardId>{
     private String postcardId;
     @Column(name = "destination_address")
     @OneToMany
-    private Address address;
+    private DestinationAddress address;
     private double price;
     private String status; // order received, made, send, delivered
     private Timestamp date;
 
     public OrderPostcard() {}
 
-    public OrderPostcard(String userId, String postcardId, Address address, double price, String status, Timestamp date) {
+    public OrderPostcard(String userId, String postcardId, DestinationAddress address, double price, String status, Timestamp date) {
         super(DomainObjectId.randomId(OrderPostcardId.class));
     }
 }
